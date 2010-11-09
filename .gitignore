@@ -1,0 +1,29 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+nbproject
+thumb.db
+
+# Folders to ignore
+.hg
+.svn
+publish
+.idea
+templates
+template
+
+# files
+build/buildinfo.properties

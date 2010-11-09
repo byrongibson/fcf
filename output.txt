@@ -1,0 +1,103 @@
+
+%> ls -al >> output.txt
+total 136
+drwxr-xr-x 13 me me  4096 2010-11-08 14:04 .
+drwxr-xr-x  6 me me  4096 2010-11-08 13:23 ..
+-rw-r--r--  1 me me   720 2010-11-08 13:21 404.html
+-rw-r--r--  1 me me  1893 2010-11-08 13:21 apple-touch-icon.png
+drwxr-xr-x  3 me me  4096 2010-11-08 13:21 build
+-rw-r--r--  1 me me   802 2010-11-08 13:21 crossdomain.xml
+drwxr-xr-x  3 me me  4096 2010-11-08 13:24 css
+drwxr-xr-x  2 me me  4096 2010-11-08 13:21 demo
+-rwxr-xr-x  1 me me  8920 2010-11-08 13:15 demo.html
+-rw-r--r--  1 me me  1150 2010-11-08 13:21 favicon.ico
+drwxr-xr-x  8 me me  4096 2010-11-08 14:04 .git
+-rw-r--r--  1 me me   266 2010-11-08 13:44 .gitignore
+-rw-r--r--  1 me me  8011 2010-11-08 13:21 .htaccess
+drwxr-xr-x  2 me me  4096 2010-11-08 13:21 images
+drwxr-xr-x  2 me me  4096 2010-11-08 13:15 img
+-rw-r--r--  1 me me  3115 2010-11-08 13:21 index.html
+drwxr-xr-x  5 me me  4096 2010-11-08 13:21 js
+-rw-r--r--  1 me me  5166 2010-11-08 13:21 lighttpd.conf
+-rw-r--r--  1 me me  3484 2010-11-08 13:21 mime.types
+-rw-r--r--  1 me me  3413 2010-11-08 13:21 nginx.conf
+-rw-r--r--  1 me me     0 2010-11-08 14:04 output.txt
+-rw-r--r--  1 me me  6277 2010-11-08 13:21 README.markdown
+-rw-r--r--  1 me me   107 2010-11-08 13:21 robots.txt
+drwxr-xr-x  4 me me  4096 2010-11-08 13:17 templates
+drwxr-xr-x  3 me me  4096 2010-11-08 13:21 test
+drwxr-xr-x  2 me me  4096 2010-11-08 13:45 vim~
+-rw-r--r--  1 me me 12274 2010-11-08 13:21 web.config
+drwxr-xr-x  2 me me  4096 2010-11-08 12:09 wireframes
+
+%> less .gitignore
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+nbproject
+thumb.db
+
+# Folders to ignore
+.hg
+.svn
+publish
+.idea
+templates
+template
+
+# files
+build/buildinfo.properties
+
+%> git add *
+# Not currently on any branch.
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   css/960.css
+#	new file:   css/960_24_col.css
+#	new file:   css/reset.css
+#	new file:   css/rtl_960.css
+#	new file:   css/rtl_960_24_col.css
+#	new file:   css/rtl_text.css
+#	new file:   css/text.css
+#	new file:   css/uncompressed/960.css
+#	new file:   css/uncompressed/960_24_col.css
+#	new file:   css/uncompressed/demo.css
+#	new file:   css/uncompressed/reset.css
+#	new file:   css/uncompressed/rtl_960.css
+#	new file:   css/uncompressed/rtl_960_24_col.css
+#	new file:   css/uncompressed/rtl_text.css
+#	new file:   css/uncompressed/text.css
+#	new file:   demo.html
+#	new file:   img/12_col.gif
+#	new file:   img/16_col.gif
+#	new file:   img/24_col.gif
+#	new file:   wireframes/basalmiq01.pdf
+#	new file:   wireframes/basalmiq01.png
+#	new file:   wireframes/basalmiq01.xml
+#	new file:   wireframes/fcf_mockingbird.zip
+#	new file:   wireframes/fcf_mockingbird_.zip
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .gitignore
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	output.txt
